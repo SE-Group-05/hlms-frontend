@@ -47,7 +47,7 @@ const Map = (props) => {
     return (
         <ReactMapGL
             mapboxApiAccessToken={config.MAPBOX_ACCESSTOKEN}
-            width={'100%'}
+            width='100%'
             height={400}
             latitude={viewport.latitude}
             longitude={viewport.longitude}
