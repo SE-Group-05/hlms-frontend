@@ -46,7 +46,7 @@ function TouristsManager() {
                         <TouristCard
                             key={user.id}
                             id={user.id}
-                            imageUrl="./user.png"
+                            imageUrl="https://upload.wikimedia.org/wikipedia/commons/d/d3/User_Circle.png"
                             first_name={user.firstname}
                             last_name={user.lastname}
                             email={user.email}

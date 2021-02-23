@@ -28,7 +28,7 @@ function AssistantDashboard() {
                                 imageUrl="https://trendipia.com/wp-content/uploads/2017/05/phuket-thailand-beach-800x416.jpeg"
                                 imageAlt="Location Picture"
                                 title="View Visiting Place"
-                                linkTo="/app/visitingPlaces"
+                                linkTo="/app/assistantvp"
                                 description=" Search Visiting Places"
                             />
 
