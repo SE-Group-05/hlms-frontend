@@ -10,6 +10,7 @@ import Assistents from '../pages/Admin/Assistents';
 import AssistantDashboard from "../pages/Assistant/AssistantDashboard";
 import TouristsManager from "../pages/Assistant/TouristsManager";
 import ScheduleManager from "../pages/Assistant/ScheduleManager";
+import AssistantVisitingPlaces from "../pages/Assistant/AssistantVisitingPlaces";
 //Tourist
 import TouristDashboard from "../pages/Tourist/Dashboard";
 import TouristVisitingPlaces from '../pages/Tourist/VisitingPlaces';
@@ -33,6 +34,8 @@ export default [
 		permission: [
 			Roles.SUPER_ADMIN,
 			Roles.ADMIN,
+			
+
 		],
 	},
 	{
@@ -54,6 +57,14 @@ export default [
 		],
 	},
 	//Assistant Routes
+	{
+		component: AssistantVisitingPlaces,
+		path: '/assistantvp',
+		title: 'Visiting Places',
+		permission: [
+			Roles.ASSISTANT
+		],
+	},
 	{
 		component: TouristsManager,
 		path: '/tourists',
@@ -78,6 +89,8 @@ export default [
 			Roles.ASSISTANT
 		],
 	},
+	
+	
 	//Tourist Routes
 	{
 		component: TouristVisitingPlaces,
