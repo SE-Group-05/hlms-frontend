@@ -19,7 +19,7 @@ import {
 } from "@chakra-ui/react";
 import { AddIcon } from "@chakra-ui/icons";
 import { Link } from 'react-router-dom';
-import Card from "../../components/Admin/AssistantCard/AssistantCard";
+import Card from "../../components/Admin/AssistantCard";
 import SearchBar from "../../components/Admin/SearchBar";
 import AddAssistantForm from "../../components/Forms/AddAssistantForm";
 import { assistantService } from "../../services/assistantService";
