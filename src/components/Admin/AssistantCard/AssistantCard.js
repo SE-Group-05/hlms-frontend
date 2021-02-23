@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Image, Badge, Grid, GridItem, Center, Button, useDisclosure, Modal, ModalOverlay, ModalContent, ModalCloseButton } from "@chakra-ui/react";
 import { ArrowForwardIcon } from "@chakra-ui/icons"
-import AssistantPreview from "./AssistentPreview";
+import AssistantPreview from "../AssistentPreview";
 
 function AssistantCard(props) {
     const { isOpen, onOpen, onClose } = useDisclosure();
