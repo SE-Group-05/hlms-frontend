@@ -106,7 +106,7 @@ const AddVisitingPlaceArea = () => {
                 right="50px"
                 zIndex='1000'
                 leftIcon={<AddIcon />} >
-                Add Visiting Place fsfs
+                Add Visiting Place
         </Button>
 
             <Modal
