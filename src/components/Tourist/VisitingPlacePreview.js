@@ -67,10 +67,6 @@ function VisitingPlacePreview(props) {
                     
                         <AddToScheduleArea data={data}/>
 
-
-
-                    
-
             </Stack>
         </Box>
 
