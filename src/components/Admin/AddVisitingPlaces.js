@@ -9,6 +9,7 @@ import {
   AlertIcon,
   Button,
   FormHelperText,
+  Text,
 } from '@chakra-ui/react';
 import { isRequired } from '../../utils/validation';
 import { Checkbox } from 'theme-ui';
@@ -16,6 +17,7 @@ import { Checkbox } from 'theme-ui';
 function AddPlacesForm() {
   const [value, setValue] = useState(null);
   const BASE_URL = '';
+  const [hasError, setHasError] = useState(false);
 
   const [data, setData] = useState({
     methods:[],
