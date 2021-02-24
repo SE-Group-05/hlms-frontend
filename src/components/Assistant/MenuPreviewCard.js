@@ -12,6 +12,7 @@ function PreviewCard(props) {
     return (
         <Link to={props.linkTo} as={ReachLink}>
             <Box
+                data-testid="MenuPreviewCard"
                 maxW="md"
                 borderWidth="1px"
                 borderRadius="lg"
