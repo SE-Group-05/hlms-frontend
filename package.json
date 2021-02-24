@@ -54,6 +54,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^11.2.5",
+    "msw": "^0.26.2",
     "react-test-render": "^1.1.2"
   }
 }
