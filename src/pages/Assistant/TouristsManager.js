@@ -10,12 +10,13 @@ function TouristsManager() {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [data, setData] = useState([]);
     const [hasError, setErrors] = useState(false);
-
+    
     const fetchData = async () => {
         touristService.getTourists()
             .then((result) => {
                 if (result.success) {
                     setData(result.tourists);
+                    
                 } else {
                     setErrors(result.status);
                 }
@@ -23,6 +24,7 @@ function TouristsManager() {
     }
     useEffect(() => {
         fetchData();
+        
     }, []);
 
     return (
@@ -43,14 +45,15 @@ function TouristsManager() {
                         <SearchBar text='Search Tourists...' />
                     </Center>
                     {data.map((user) => (
+                        
                         <TouristCard
-                            key={user.id}
-                            id={user.id}
+                            key={user._id}
+                            id={user._id}
                             imageUrl="https://upload.wikimedia.org/wikipedia/commons/d/d3/User_Circle.png"
                             first_name={user.firstname}
                             last_name={user.lastname}
                             email={user.email}
-                            phone={user.phone}
+                            phone={user.mobile}
 
                         />
                     ))}

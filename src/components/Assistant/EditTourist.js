@@ -7,19 +7,18 @@ import {Text,Avatar,HStack,
     InputLeftElement,Button, Center,FormHelperText
 } from "@chakra-ui/react";
 import { AiOutlineUser, AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
-import {ValidateEmail, isRequired, isNumeric} from '../../utils/validation';
-import axios from "axios";
+import { ValidateEmail, isRequired, isNumeric } from '../../utils/validation';
+import { touristService } from '../../services/touristService';
+
 
 function EditTourist(props) {
     const [hasError, setHasError] = React.useState(false);
-    const [roomData, setRoomData] = React.useState({rooms: [],isFetching:false});
     const [data, setData] = useState({
         first_name: props.first_name,
         last_name: props.last_name,
         phone:props.phone,
-        email: props.email,
-        roomType: props.roomType,
-        roomNumber:props.roomNumber
+        email: props.email
+        
 
     })
 
@@ -52,7 +51,8 @@ function EditTourist(props) {
                 return
             }
         }
-        props.onUpdate(props.id,data)    
+        
+        touristService.updateDetailsForTourist(props.id, data);
     
         
     }
@@ -142,37 +142,7 @@ function EditTourist(props) {
 
                      </FormControl>
 
-                    <FormControl id="suiteType" isRequired>
-                        <FormLabel>Suite Type</FormLabel>
-                        <Select
-                            name="roomType"
-                            value={data.roomType}
-                            placeholder={props.roomType}
-                            onChange={(e) => handleChange(e)}
-                        >
-                            {roomData.isFetching ? <option></option> :
-                                roomData.rooms.map((data) => {
-                                return (
-                                    <option key={data.roomTypeId}>{data.roomType}</option>
-                                    
-                                )
-                            })}
-                        </Select>
-
-                        <FormLabel>Room Number</FormLabel>
-                        <Select
-                            name="roomNumber"
-                            value={data.roomNumber}
-                            placeholder={props.roomNumber}
-                            onChange={(e)=>handleChange(e)}
-                            >
-                            {
-                                <option>1</option> 
-                                
-                                
-                           }
-                        </Select>
-                        </FormControl>
+                    
                     <Button colorScheme='cyan' type="submit">Update Customer</Button>
                 </Stack>
                 

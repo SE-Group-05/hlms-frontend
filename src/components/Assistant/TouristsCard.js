@@ -47,6 +47,7 @@ function TouristCard(props) {
                         </Box>
                         <Box>
                             {props.phone}
+                            
                          
                         </Box>
 
@@ -59,7 +60,7 @@ function TouristCard(props) {
                 <GridItem colSpan={{ base: 8, md: 3}} rowSpan={{ base: 1, md: 3 }} pt='50px'>
                     <Wrap spacing="30px">
                         <WrapItem>
-                            <Button leftIcon={<MdDirectionsRun />} colorScheme="teal">Activities</Button> 
+                            <Button leftIcon={<MdDirectionsRun />} colorScheme="teal" >Activities</Button> 
                         </WrapItem>
                         <WrapItem>    
                             <Button leftIcon={<EditIcon />} colorScheme="teal" variant="outline" onClick={onOpen}>Update Details</Button>
@@ -78,10 +79,8 @@ function TouristCard(props) {
                                 first_name={props.first_name}
                                 last_name={props.last_name}
                                 email={props.email}
-                                phone={props.phone}
-                                roomNumber={props.roomNumber}
-                                roomType={props.roomType} 
-                                onUpdate={props.onUpdate}
+                                phone={props.phone}                                
+                                
                             />
                         </ModalContent>
                     </Modal>
