@@ -124,6 +124,7 @@ function AssistantPreview(props) {
                             </Text>
                             <FormControl isRequired>
                                 <Input
+                                    data-testid = "firstname_input"
                                     type='text'
                                     value={data.firstname}
                                     name='firstname'
@@ -143,7 +144,7 @@ function AssistantPreview(props) {
                                     First name
                             </Badge>
                             </Text>
-                            <Text fontSize="2xl">{data.firstname}</Text>
+                            <Text data-testid = "firstname" fontSize="2xl">{data.firstname}</Text>
                         </>
                     }
                     <Divider />
@@ -156,6 +157,7 @@ function AssistantPreview(props) {
                             </Text>
                             <FormControl isRequired>
                                 <Input
+                                    data-testid = "lastname_input" 
                                     type='text'
                                     value={data.lastname}
                                     name='lastname'
@@ -175,7 +177,7 @@ function AssistantPreview(props) {
                                     Last name
                             </Badge>
                             </Text>
-                            <Text fontSize="2xl">{data.lastname}</Text>
+                            <Text data-testid = "lastname" fontSize="2xl">{data.lastname}</Text>
                         </>
                     }
                     <Divider />
@@ -188,6 +190,7 @@ function AssistantPreview(props) {
                             </Text>
                             <FormControl isRequired>
                                 <Input
+                                    data-testid = "email_input"
                                     type='email'
                                     value={data.email}
                                     name='email'
@@ -207,7 +210,7 @@ function AssistantPreview(props) {
                                     Email
                             </Badge>
                             </Text>
-                            <Text fontSize="2xl">{data.email}</Text>
+                            <Text data-testid = "email" fontSize="2xl">{data.email}</Text>
                         </>
                     }
 
@@ -228,7 +231,7 @@ function AssistantPreview(props) {
                                     value=''
                                 />
                                 <InputRightElement width="4.5rem">
-                                    <Button h="1.75rem" size="sm" onClick={handleClick}>
+                                    <Button data-testid = "show_button" h="1.75rem" size="sm" onClick={handleClick}>
                                         {show ? "Hide" : "Show"}
                                     </Button>
                                 </InputRightElement>
@@ -241,10 +244,10 @@ function AssistantPreview(props) {
                     {editMode ?
                         null
                         :
-                        <Button colorScheme='cyan' onClick={() => setEditMode(true)}>Edit details</Button>
+                        <Button data-testid = "edit_button" colorScheme='cyan' onClick={() => setEditMode(true)}>Edit details</Button>
                     }
                     {editMode ?
-                        <Button colorScheme='cyan' type="submit" onClick={(event) => handleSubmit(event)}>Update the Assistant</Button>
+                        <Button data-testid = "submit_button" colorScheme='cyan' type="submit" onClick={(event) => handleSubmit(event)}>Update the Assistant</Button>
                         :
                         null
                     }

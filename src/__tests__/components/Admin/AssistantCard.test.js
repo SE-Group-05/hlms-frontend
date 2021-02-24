@@ -1,11 +1,20 @@
+// import dependencies
 import React from "react";
-import ReactDOM from "react-dom";
-import AssistantCard from "../../../components/Admin/AssistantCard";
 
+// import react-testing methods
 import { render, cleanup } from "@testing-library/react";
-import "@testing-library/jest-dom";
-import renderer from 'react-test-renderer';
 
+// add custom jest matchers from jest-dom
+import "@testing-library/jest-dom";
+
+// import react dom
+import ReactDOM from "react-dom";
+
+// import renderer for take snapshots
+import renderer from "react-test-renderer";
+
+// import the component for testing
+import AssistantCard from "../../../components/Admin/AssistantCard";
 
 
 afterEach(cleanup);
