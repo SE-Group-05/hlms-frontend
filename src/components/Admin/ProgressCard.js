@@ -9,11 +9,11 @@ function ProgressCard(props) {
             bg={colorMode === 'light' ? `${props.colour}.400` : `${props.colour}.900`}>
  
             
-            <Text color='white' fontSize="6xl" ml='10px'>
+            <Text data-testid="current_value" color='white' fontSize="6xl" ml='10px'>
                 {props.currentvalue}
             </Text>
 
-            <Text color='white' fontSize="2xl" ml='10px'>
+            <Text data-testid="heading" color='white' fontSize="2xl" ml='10px'>
                 {props.Heading}
             </Text>
 

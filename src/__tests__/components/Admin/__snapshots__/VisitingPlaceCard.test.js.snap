@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-zn4p7q"
+>
+  <div
+    className="css-19fmqat"
+  >
+    <div
+      className="css-1txosv4"
+    >
+      <div
+        className="css-gmuwbf"
+      >
+        <img
+          alt="place name"
+          className="chakra-image__placeholder css-0"
+        />
+      </div>
+    </div>
+    <div
+      className="css-1y4dbot"
+    >
+      <div
+        className="css-n16x53"
+      >
+        <div
+          className="css-x1sij0"
+        >
+          <span
+            className="chakra-badge css-637omx"
+          >
+            New
+          </span>
+        </div>
+        <h4
+          className="css-1mwm0bw"
+        >
+          <p
+            className="chakra-text css-1tapsqs"
+            data-testid="place"
+          >
+            mirissa
+          </p>
+        </h4>
+        <div
+          className="css-0"
+          data-testid="distance"
+        >
+          20
+           km from the hotel
+          <span
+            className="css-bgvdb6"
+          />
+        </div>
+        <div
+          className="css-0"
+          data-testid="timetoreach"
+        >
+          30
+           min journey
+          <span
+            className="css-bgvdb6"
+          />
+        </div>
+        <div
+          className="css-15yujhg"
+        >
+          <p
+            className="chakra-text css-g5hezf"
+          >
+            Travel by :
+          </p>
+          <span
+            className="chakra-badge css-1e8ypgz"
+            data-testid="method"
+          >
+            bus
+          </span>
+          <span
+            className="chakra-badge css-1e8ypgz"
+            data-testid="method"
+          >
+            car
+          </span>
+          <span
+            className="chakra-badge css-1e8ypgz"
+            data-testid="method"
+          >
+            bike
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-dfiqwb"
+    >
+      <button
+        className="chakra-button css-oqfhsh"
+        onClick={[Function]}
+        type="button"
+      >
+        Details
+        <span
+          className="chakra-button__icon css-1oeb2oe"
+        >
+          <svg
+            aria-hidden={true}
+            className="chakra-icon css-onkibi"
+            focusable={false}
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

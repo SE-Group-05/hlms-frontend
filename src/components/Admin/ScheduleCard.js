@@ -7,7 +7,7 @@ function ScheduleCard(props) {
     for (var i = 0; i < props.path.length; i++) {
         path.push(
             <>
-                <Badge variant="outline" colorScheme="cyan">
+                <Badge data-testid="path" variant="outline" colorScheme="cyan">
                     {props.path[i]}
 
                 </Badge>
@@ -50,7 +50,7 @@ function ScheduleCard(props) {
             <SimpleGrid columns={2} spacing='1px'>
                 <Box>
                     <Text fontSize="xs"> Schedule By,</Text>
-                    <Text fontSize="xs"><Avatar
+                    <Text fontSize="xs" data-testid = 'user' ><Avatar
                         size="xs"
                         name='user'
                         src='./user.png'
@@ -59,7 +59,7 @@ function ScheduleCard(props) {
                 </Box>
                 <Box>
                     <Text fontSize="xs">Fair</Text>
-                    <Text fontSize="xl">{props.fair}</Text>
+                    <Text data-testid = 'fair' fontSize="xl">Rs. {props.fair}</Text>
 
                 </Box>
             </SimpleGrid>
@@ -76,7 +76,7 @@ function ScheduleCard(props) {
             <SimpleGrid columns={2} spacing='1px'>
                 <Box>
                     <Text fontSize="lg" mt='10px'>Travel Method</Text>
-                    <Badge variant="outline" colorScheme="orange">
+                    <Badge data-testid = "method" variant="outline" colorScheme="orange">
                         {props.travelmethod}
 
                     </Badge>

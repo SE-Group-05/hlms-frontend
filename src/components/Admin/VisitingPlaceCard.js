@@ -35,15 +35,15 @@ function VisitingPlaceCard(props) {
                             lineHeight="tight"
                             isTruncated
                         >
-                            <Text fontSize='3xl'>{props.placeName}</Text>
+                            <Text data-testid = "place" fontSize='3xl'>{props.placeName}</Text>
                         </Box>
 
-                        <Box>
+                        <Box data-testid = "distance">
                             {props.distance} km from the hotel
                             <Box as="span" color="gray.600" fontSize="sm">
                             </Box>
                         </Box>
-                        <Box>
+                        <Box data-testid = "timetoreach">
                             {props.timeToReach} min journey
                             <Box as="span" color="gray.600" fontSize="sm">
                             </Box>
@@ -52,7 +52,7 @@ function VisitingPlaceCard(props) {
                         <Box d="flex" mt="2" alignItems="center">
                             <Text fontSize='sm'>Travel by :</Text>
                             {props.methods.map((method, i) => (
-                                <Badge m='3px' borderRadius="full" px="2" colorScheme="orange">
+                                <Badge data-testid = "method" m='3px' borderRadius="full" px="2" colorScheme="orange">
                                     {method}
                                 </Badge>
                             ))

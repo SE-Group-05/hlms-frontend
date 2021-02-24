@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-khhas1"
+>
+  <p
+    className="chakra-text css-gnndzk"
+    data-testid="current_value"
+  >
+    25
+  </p>
+  <p
+    className="chakra-text css-e1ztz8"
+    data-testid="heading"
+  />
+</div>
+`;

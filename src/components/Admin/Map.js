@@ -46,6 +46,7 @@ const Map = (props) => {
     const SIZE = 20;
     return (
         <ReactMapGL
+            data-testid = "map"
             mapboxApiAccessToken={config.MAPBOX_ACCESSTOKEN}
             width='100%'
             height={400}
