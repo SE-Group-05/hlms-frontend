@@ -34,11 +34,12 @@ function AssistantCard(props) {
                             as="h4"
                             lineHeight="tight"
                             isTruncated
+                            data-testid="display_name"
                         >
                             {props.firstname} {props.lastname}
                         </Box>
 
-                        <Box>
+                        <Box data-testid="email">
                             {props.email}
                             <Box as="span" color="gray.600" fontSize="sm">
                                

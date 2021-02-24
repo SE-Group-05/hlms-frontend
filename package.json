@@ -24,6 +24,7 @@
     "react-map-gl": "^6.1.8",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
+    "react-test-renderer": "^17.0.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
@@ -53,7 +54,6 @@
   },
   "devDependencies": {
     "@testing-library/react": "^11.2.5",
-    "jest-dom": "^4.0.0",
     "react-test-render": "^1.1.2"
   }
 }
