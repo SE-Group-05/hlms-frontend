@@ -200,6 +200,7 @@ function VisitingPlaceForm() {
           <Text >Name of the place</Text>
           <FormControl isRequired>
             <Input
+              data-testid = "placename"
               type='text'
               value={data.placeName}
               name='placeName'
@@ -214,6 +215,7 @@ function VisitingPlaceForm() {
           <Text >Description</Text>
           <FormControl isRequired>
             <Textarea
+            data-testid = "description"
               type='text'
               name='description'
               value={data.description}
@@ -234,6 +236,7 @@ function VisitingPlaceForm() {
           <FormControl isRequired>
             <InputGroup>
               <Input
+              data-testid = "latitude"
                 type='text'
                 name='latitude'
                 value={data.latitude}
@@ -244,6 +247,7 @@ function VisitingPlaceForm() {
                 errorBorderColor="crimson"
               />
               <Input
+              data-testid = "longitude"
                 type='text'
                 name='longitude'
                 value={data.longitude}

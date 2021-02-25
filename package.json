@@ -55,6 +55,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^11.2.5",
+    "jest-html-reporters": "^2.1.2",
     "msw": "^0.26.2",
     "react-test-render": "^1.1.2"
   }

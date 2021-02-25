@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-mccp0p"
+>
+  <h4
+    className="chakra-heading css-biiv2x"
+  >
+    Add New Customer
+  </h4>
+  <form
+    action="submit"
+    onSubmit={[Function]}
+  >
+    <div
+      className="chakra-stack css-ppbuf4"
+    >
+      <div
+        className="chakra-stack css-8d1dcg"
+      >
+        <div
+          className="chakra-form-control css-1kxonj9"
+          role="group"
+        >
+          <div
+            className="chakra-input__group css-4302v8"
+          >
+            <div
+              className="chakra-input__left-element css-8b9uhn"
+            >
+              <svg
+                color=""
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 1024 1024"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+                />
+              </svg>
+            </div>
+            <input
+              aria-describedby="field-54-helptext"
+              aria-required={true}
+              className="chakra-input css-0"
+              data-testid="first_name"
+              disabled={false}
+              id="field-54"
+              name="first_name"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder="First Name"
+              readOnly={false}
+              required={true}
+              value=""
+            />
+          </div>
+          <div
+            className="chakra-form__helper-text css-1xnfdvb"
+            id="field-54-helptext"
+          >
+            
+          </div>
+        </div>
+        <div
+          className="chakra-form-control css-1kxonj9"
+          role="group"
+        >
+          <div
+            className="chakra-input__group css-4302v8"
+          >
+            <input
+              aria-describedby="field-55-helptext"
+              aria-required={true}
+              className="chakra-input css-0"
+              data-testid="last_name"
+              disabled={false}
+              id="field-55"
+              name="last_name"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder="Last Name"
+              readOnly={false}
+              required={true}
+              value=""
+            />
+          </div>
+          <div
+            className="chakra-form__helper-text css-1xnfdvb"
+            id="field-55-helptext"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="chakra-form-control css-1kxonj9"
+        role="group"
+      >
+        <div
+          className="chakra-input__group css-4302v8"
+        >
+          <div
+            className="chakra-input__left-element css-8b9uhn"
+          >
+            <svg
+              color=""
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M877.1 238.7L770.6 132.3c-13-13-30.4-20.3-48.8-20.3s-35.8 7.2-48.8 20.3L558.3 246.8c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l89.6 89.7a405.46 405.46 0 0 1-86.4 127.3c-36.7 36.9-79.6 66-127.2 86.6l-89.6-89.7c-13-13-30.4-20.3-48.8-20.3a68.2 68.2 0 0 0-48.8 20.3L132.3 673c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l106.4 106.4c22.2 22.2 52.8 34.9 84.2 34.9 6.5 0 12.8-.5 19.2-1.6 132.4-21.8 263.8-92.3 369.9-198.3C818 606 888.4 474.6 910.4 342.1c6.3-37.6-6.3-76.3-33.3-103.4zm-37.6 91.5c-19.5 117.9-82.9 235.5-178.4 331s-213 158.9-330.9 178.4c-14.8 2.5-30-2.5-40.8-13.2L184.9 721.9 295.7 611l119.8 120 .9.9 21.6-8a481.29 481.29 0 0 0 285.7-285.8l8-21.6-120.8-120.7 110.8-110.9 104.5 104.5c10.8 10.8 15.8 26 13.3 40.8z"
+              />
+            </svg>
+          </div>
+          <input
+            aria-describedby="field-56-helptext"
+            aria-required={true}
+            className="chakra-input css-0"
+            data-testid="phone"
+            disabled={false}
+            id="field-56"
+            name="phone"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Mobile Number"
+            readOnly={false}
+            required={true}
+            value=""
+          />
+        </div>
+        <div
+          className="chakra-form__helper-text css-1xnfdvb"
+          id="field-56-helptext"
+        >
+          
+        </div>
+      </div>
+      <div
+        className="chakra-form-control css-1kxonj9"
+        role="group"
+      >
+        <div
+          className="chakra-input__group css-4302v8"
+        >
+          <div
+            className="chakra-input__left-element css-8b9uhn"
+          >
+            <svg
+              color=""
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-40 110.8V792H136V270.8l-27.6-21.5 39.3-50.5 42.8 33.3h643.1l42.8-33.3 39.3 50.5-27.7 21.5zM833.6 232L512 482 190.4 232l-42.8-33.3-39.3 50.5 27.6 21.5 341.6 265.6a55.99 55.99 0 0 0 68.7 0L888 270.8l27.6-21.5-39.3-50.5-42.7 33.2z"
+              />
+            </svg>
+          </div>
+          <input
+            aria-describedby="field-57-helptext"
+            aria-required={true}
+            className="chakra-input css-0"
+            data-testid="email"
+            disabled={false}
+            id="field-57"
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Email Address"
+            readOnly={false}
+            required={true}
+            value=""
+          />
+        </div>
+        <div
+          className="chakra-form__helper-text css-1xnfdvb"
+          id="field-57-helptext"
+        >
+          
+        </div>
+      </div>
+      <button
+        className="chakra-button css-oqfhsh"
+        type="submit"
+      >
+        Add Customer
+      </button>
+    </div>
+  </form>
+</div>
+`;

@@ -114,6 +114,7 @@ function AddAssistantForm({onSuccess}) {
 
                     <FormControl isRequired>
                         <Input
+                            data-testid = "firstname"
                             type='text'
                             value={data.firstname}
                             name='firstname'
@@ -127,6 +128,7 @@ function AddAssistantForm({onSuccess}) {
                     </FormControl>
                     <FormControl isRequired>
                         <Input
+                        data-testid = "lastname"
                             type='text'
                             value={data.lastname}
                             name='lastname'
@@ -141,6 +143,7 @@ function AddAssistantForm({onSuccess}) {
                     <Divider />
                     <FormControl isRequired>
                         <Input
+                        data-testid = "email"
                             type='email'
                             value={data.email}
                             name='email'

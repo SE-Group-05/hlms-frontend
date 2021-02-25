@@ -74,6 +74,7 @@ function LoginForm({ handleLoginSuccess}) {
                         <InputGroup>
                             <InputLeftElement children={<EmailIcon />} />
                             <Input
+                                data-testid = "email"
                                 type='email'
                                 value={data.email}
                                 placeholder='Email'
@@ -93,6 +94,7 @@ function LoginForm({ handleLoginSuccess}) {
                         <InputGroup>
                             <InputLeftElement children={<LockIcon />} />
                             <Input
+                                data-testid = "password"
                                 type={show ? "text" : "password"}
                                 value={data.password}
                                 placeholder='Password'
@@ -114,7 +116,7 @@ function LoginForm({ handleLoginSuccess}) {
                     </FormControl>
 
 
-                    <Button colorScheme='teal' type="button" onClick={handleSubmit}>Log In</Button>
+                    <Button data-testid = "login" colorScheme='teal' type="button" onClick={handleSubmit}>Log In</Button>
 
                 </Stack>
             </form>

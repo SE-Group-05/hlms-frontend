@@ -108,6 +108,7 @@ function AddTouristForm(props) {
                                     pointerEvents="none"
                                     children={<AiOutlineUser color="" />} />
                                 <Input
+                                    data-testid = "first_name"
                                     name="first_name"
                                     value={data.first_name}
                                     placeholder="First Name"
@@ -122,6 +123,7 @@ function AddTouristForm(props) {
                         <FormControl isRequired>
                             <InputGroup>
                                 <Input
+                                data-testid = "last_name"
                                     name="last_name"
                                     value={data.last_name}
                                     placeholder="Last Name"
@@ -139,6 +141,7 @@ function AddTouristForm(props) {
                                 pointerEvents="none"
                                 children={<AiOutlinePhone color="" />} />
                             <Input
+                            data-testid = "phone"
                                 name="phone"
                                 value={data.phone}
                                 isInvalid={!validation.validation[3]}
@@ -156,6 +159,7 @@ function AddTouristForm(props) {
                                 pointerEvents="none"
                                 children={<AiOutlineMail color="" />} />
                             <Input
+                            data-testid = "email"
                                 name="email"
                                 value={data.email}
                                 isInvalid={!validation.validation[2]}

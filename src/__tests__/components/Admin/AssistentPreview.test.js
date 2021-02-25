@@ -9,7 +9,7 @@ import { setupServer } from "msw/node";
 import renderer from "react-test-renderer";
 
 // import react-testing methods
-import { render, fireEvent, cleanup, screen } from "@testing-library/react";
+import { render, cleanup, fireEvent } from "@testing-library/react";
 
 // add custom jest matchers from jest-dom
 import "@testing-library/jest-dom/extend-expect";
@@ -61,6 +61,47 @@ it("renders assistant preview correctly", () => {
   expect(getByTestId("firstname")).toHaveTextContent("Chandima");
   expect(getByTestId("lastname")).toHaveTextContent("Amarasena");
   expect(getByTestId("email")).toHaveTextContent("chandima334@gmail.com");
+});
+
+it("edit button works correctly", () => {
+  const { queryByTestId } = render(
+    <AssistantPreview
+      data={{
+        firstname: "Chandima",
+        lastname: "Amarasena",
+        email: "chandima334@gmail.com",
+      }}
+    />
+  );
+
+ 
+  expect(queryByTestId("firstname")).toBeInTheDocument();
+  expect(queryByTestId("lastname")).toBeInTheDocument();
+  expect(queryByTestId("email")).toBeInTheDocument();
+
+  expect(queryByTestId("firstname_input")).not.toBeInTheDocument();
+  expect(queryByTestId("lastname_input")).not.toBeInTheDocument();
+  expect(queryByTestId("email_input")).not.toBeInTheDocument();
+
+  fireEvent.click(queryByTestId("edit_button")) 
+
+  expect(queryByTestId("firstname")).not.toBeInTheDocument();
+  expect(queryByTestId("lastname")).not.toBeInTheDocument();
+  expect(queryByTestId("email")).not.toBeInTheDocument();
+
+  expect(queryByTestId("firstname_input")).toBeInTheDocument();
+  expect(queryByTestId("lastname_input")).toBeInTheDocument();
+  expect(queryByTestId("email_input")).toBeInTheDocument();
+
+  fireEvent.change(queryByTestId("firstname_input"),{ target: { value: 'chandima' } })
+  fireEvent.change(queryByTestId("lastname_input"),{ target: { value: 'amarasena' } })
+  fireEvent.change(queryByTestId("email_input"),{ target: { value: 'chandima@gmail.com' } })
+
+  fireEvent.click(queryByTestId("show_button")) 
+
+  fireEvent.click(queryByTestId("submit_button")) 
+
+  
 });
 
 it("matches snapshot", () => {

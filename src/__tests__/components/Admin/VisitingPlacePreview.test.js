@@ -1,10 +1,6 @@
 // import dependencies
 import React from "react";
 
-// import API mocking utilities from Mock Service Worker
-import { rest } from "msw";
-import { setupServer } from "msw/node";
-
 // import react-testing methods
 import { render, fireEvent, cleanup } from "@testing-library/react";
 
@@ -22,22 +18,6 @@ import VisitingPlacePreview from "../../../components/Admin/VisitingPlacePreview
 
 afterEach(cleanup);
 
-const server = setupServer(
-  rest.get("/employees/2", (req, res, ctx) => {
-    return res(
-      ctx.status(200),
-      ctx.json({
-        firstname: "chandima",
-        lastname: "Amarasena",
-        email: "chandima334@gmail.com",
-      })
-    );
-  })
-);
-
-beforeAll(() => server.listen());
-afterEach(() => server.resetHandlers());
-afterAll(() => server.close());
 
 it("renders without crashing", () => {
   const div = document.createElement("div");
@@ -63,6 +43,59 @@ it("renders visiting place preview correctly", () => {
   expect(getByTestId("distance")).toHaveTextContent("20 km");
   expect(getByTestId("timetoreach")).toHaveTextContent("30 min");
   expect(getByTestId("description")).toHaveTextContent("no description");
+});
+
+it("edit button works correctly", () => {
+  const { queryByTestId, getByText } = render(
+    <VisitingPlacePreview
+      data={{
+        placeName: "Galle",
+        distance: "20",
+        timeToReach: "30",
+        description: "no description",
+        methods: ["bus"],
+      }}
+    />
+  );
+
+ 
+  expect(queryByTestId("placename")).toBeInTheDocument();
+  expect(queryByTestId("distance")).toBeInTheDocument();
+  expect(queryByTestId("timetoreach")).toBeInTheDocument();
+  expect(queryByTestId("description")).toBeInTheDocument();
+
+  expect(queryByTestId("placename_input")).not.toBeInTheDocument();
+  expect(queryByTestId("distance_input")).not.toBeInTheDocument();
+  expect(queryByTestId("timetoreach_input")).not.toBeInTheDocument();
+  expect(queryByTestId("description_input")).not.toBeInTheDocument();
+  
+  fireEvent.click(getByText("Delete the place")) 
+  fireEvent.click(getByText("Edit the place")) 
+
+  expect(queryByTestId("placename")).not.toBeInTheDocument();
+  expect(queryByTestId("distance")).not.toBeInTheDocument();
+  expect(queryByTestId("timetoreach")).not.toBeInTheDocument();
+  expect(queryByTestId("description")).not.toBeInTheDocument();
+
+  expect(queryByTestId("placename_input")).toBeInTheDocument();
+  expect(queryByTestId("distance_input")).toBeInTheDocument();
+  expect(queryByTestId("timetoreach_input")).toBeInTheDocument();
+  expect(queryByTestId("description_input")).toBeInTheDocument();
+  
+  fireEvent.click(getByText("Bus")) 
+  fireEvent.click(getByText("Car")) 
+  fireEvent.click(getByText("Foot")) 
+
+
+  fireEvent.change(queryByTestId("placename_input"),{ target: { value: 'mirissa' } })
+  fireEvent.change(queryByTestId("latitude_input"),{ target: { value: '23' } })
+  fireEvent.change(queryByTestId("longitude_input"),{ target: { value: '23' } })
+  fireEvent.change(queryByTestId("description_input"),{ target: { value: 'agasghasg hasdh' } })
+
+ 
+  fireEvent.click(getByText("Update the place")) 
+
+  
 });
 
 it("matches snapshot", () => {

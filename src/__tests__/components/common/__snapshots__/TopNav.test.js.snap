@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-pzpr4w"
+>
+  <div
+    className="css-1td3zw5"
+  >
+    <div
+      className="chakra-stack css-m662aq"
+    >
+      <h1
+        className="chakra-heading css-gvp5wc"
+      >
+        SunRise
+      </h1>
+      <div
+        className="chakra-stack css-1kjztpx"
+      >
+        <div
+          className="chakra-stack css-1p1m4ay"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
