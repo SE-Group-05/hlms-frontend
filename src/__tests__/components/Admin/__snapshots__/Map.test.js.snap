@@ -2,36 +2,41 @@
 
 exports[`matches snapshot 1`] = `
 <div
-  style={
-    Object {
-      "cursor": "grab",
-      "height": 400,
-      "position": "relative",
-      "width": "100%",
-    }
-  }
+  className="css-0"
+  data-testid="map"
 >
   <div
     style={
       Object {
-        "height": "100%",
+        "cursor": "grab",
+        "height": 400,
         "position": "relative",
         "width": "100%",
       }
     }
   >
     <div
-      className=""
       style={
         Object {
           "height": "100%",
-          "overflow": "hidden",
-          "position": "absolute",
-          "visibility": "inherit",
+          "position": "relative",
           "width": "100%",
         }
       }
-    />
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "height": "100%",
+            "overflow": "hidden",
+            "position": "absolute",
+            "visibility": "inherit",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
   </div>
 </div>
 `;

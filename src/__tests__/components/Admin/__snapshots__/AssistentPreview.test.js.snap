@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-mccp0p"
+>
+  <form
+    action="submit"
+  >
+    <div
+      className="chakra-stack css-1n2jfo2"
+    >
+      <div
+        className="css-gmuwbf"
+      >
+        <span
+          className="chakra-avatar css-1ruhx4w"
+        >
+          <div
+            aria-label="Profile photo"
+            className="chakra-avatar__initials css-0"
+          >
+            Pp
+          </div>
+        </span>
+      </div>
+      <p
+        className="chakra-text css-504jus"
+      >
+        <span
+          className="chakra-badge css-ifsvay"
+        >
+          First name
+        </span>
+      </p>
+      <p
+        className="chakra-text css-1n49pl7"
+        data-testid="firstname"
+      />
+      <hr
+        aria-orientation="horizontal"
+        className="chakra-divider css-1upb9tn"
+        role="separator"
+      />
+      <p
+        className="chakra-text css-504jus"
+      >
+        <span
+          className="chakra-badge css-ifsvay"
+        >
+          Last name
+        </span>
+      </p>
+      <p
+        className="chakra-text css-1n49pl7"
+        data-testid="lastname"
+      />
+      <hr
+        aria-orientation="horizontal"
+        className="chakra-divider css-1upb9tn"
+        role="separator"
+      />
+      <p
+        className="chakra-text css-504jus"
+      >
+        <span
+          className="chakra-badge css-ifsvay"
+        >
+          Email
+        </span>
+      </p>
+      <p
+        className="chakra-text css-1n49pl7"
+        data-testid="email"
+      />
+      <button
+        className="chakra-button css-oqfhsh"
+        data-testid="edit_button"
+        onClick={[Function]}
+        type="button"
+      >
+        Edit details
+      </button>
+    </div>
+  </form>
+</div>
+`;

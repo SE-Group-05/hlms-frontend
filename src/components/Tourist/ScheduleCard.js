@@ -11,7 +11,7 @@ const ScheduleCard = ({ place, date, travellingMethod, fair, state }) => {
                 </Badge>
 
 
-                <Box
+                <Box data-testid="place"
                     mt="1"
                     fontWeight="semibold"
                     as="h4"

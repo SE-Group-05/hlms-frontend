@@ -14,7 +14,7 @@ const AddToScheduleArea = (props) => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     return (
         <>
-            <Button colorScheme="teal" onClick={onOpen}>Add To Schedule</Button>
+            <Button colorScheme="teal" onClick={onOpen} data-testid="addButton">Add To Schedule</Button>
             <Modal isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay />
                 <ModalContent>
