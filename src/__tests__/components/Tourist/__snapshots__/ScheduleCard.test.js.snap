@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`schedule card matches snapshot 1`] = `
+<div
+  className="css-mrjdax"
+>
+  <div
+    className="css-n16x53"
+  >
+    <span
+      className="chakra-badge css-637omx"
+    >
+      true
+    </span>
+    <h4
+      className="css-1mwm0bw"
+      data-testid="place"
+    >
+      Hikkaduwa
+    </h4>
+    <div
+      className="css-0"
+    >
+      <p
+        className="chakra-text css-0"
+      >
+        On : 24-02-2021
+      </p>
+      <p
+        className="chakra-text css-0"
+      >
+        At : undefined
+      </p>
+      <p
+        className="chakra-text css-0"
+      >
+        TravellingMethod : bus
+      </p>
+      <p
+        className="chakra-text css-0"
+      >
+        Fair : 100
+      </p>
+    </div>
+  </div>
+</div>
+`;
