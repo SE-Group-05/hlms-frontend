@@ -164,13 +164,14 @@ function VisitingPlacePreview(props) {
       <form action="submit">
         {editMode ? (
           <>
-            <Heading as="h4" size="lg" textAlign="center" pb="20px" pt="5px">
+            <Heading  as="h4" size="lg" textAlign="center" pb="20px" pt="5px">
               Edit the place
             </Heading>
             <Text>Name of the place</Text>
             <FormControl isRequired mb="10px">
               <Input
                 type="text"
+                data-testid="placename_input"
                 value={data.placeName}
                 name="placeName"
                 placeholder="Name of the place"
@@ -208,6 +209,7 @@ function VisitingPlacePreview(props) {
               <Text>Description</Text>
               <FormControl isRequired>
                 <Textarea
+                data-testid="description_input"
                   type="text"
                   name="description"
                   value={data.description}
@@ -240,6 +242,7 @@ function VisitingPlacePreview(props) {
               <FormControl isRequired>
                 <InputGroup>
                   <Input
+                  data-testid="latitude_input"
                     type="text"
                     name="latitude"
                     value={data.latitude}
@@ -250,6 +253,7 @@ function VisitingPlacePreview(props) {
                     errorBorderColor="crimson"
                   />
                   <Input
+                  data-testid="longitude_input"
                     type="text"
                     name="longitude"
                     value={data.longitude}
@@ -284,6 +288,7 @@ function VisitingPlacePreview(props) {
               <Text>Distance (Km)</Text>
               <FormControl isRequired>
                 <NumberInput
+                data-testid="distance_input"
                   step={0.1}
                   defaultValue={0}
                   min={0.1}
@@ -300,10 +305,11 @@ function VisitingPlacePreview(props) {
                     <NumberDecrementStepper />
                   </NumberInputStepper>
                 </NumberInput>
-              </FormControl>
+              
               <FormHelperText color="crimson">
                 {validation.errorMessage[4]}
               </FormHelperText>
+              </FormControl>
             </>
           ) : (
             <Box
@@ -382,6 +388,7 @@ function VisitingPlacePreview(props) {
               <Text>Time to reach (min)</Text>
               <FormControl isRequired>
                 <NumberInput
+                data-testid="timetoreach_input"
                   step={1}
                   defaultValue={0}
                   min={1}

@@ -93,6 +93,7 @@ function AddScheduleForm(props) {
                     <Text >Date</Text>
                     <FormControl isRequired>
                         <Input
+                            data-testid = 'date'
                             type='date'
                             value={data.date}
                             name='date'
@@ -108,6 +109,7 @@ function AddScheduleForm(props) {
                     <Text >Time</Text>
                     <FormControl isRequired>
                         <Input
+                        data-testid = 'time'
                             type='time'
                             value={data.time}
                             name='time'

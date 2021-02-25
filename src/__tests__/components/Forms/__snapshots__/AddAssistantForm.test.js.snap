@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-1ceyi20"
+>
+  <form
+    action="submit"
+  >
+    <div
+      className="chakra-stack css-1n2jfo2"
+    >
+      <div
+        className="chakra-form-control css-1kxonj9"
+        role="group"
+      >
+        <input
+          aria-describedby="field-40-helptext"
+          aria-label="Fisrt Name"
+          aria-required={true}
+          className="chakra-input css-0"
+          data-testid="firstname"
+          disabled={false}
+          id="field-40"
+          name="firstname"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="First Name"
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+        <div
+          className="chakra-form__helper-text css-1xnfdvb"
+          id="field-40-helptext"
+        >
+          
+        </div>
+      </div>
+      <div
+        className="chakra-form-control css-1kxonj9"
+        role="group"
+      >
+        <input
+          aria-describedby="field-41-helptext"
+          aria-label="Last Name"
+          aria-required={true}
+          className="chakra-input css-0"
+          data-testid="lastname"
+          disabled={false}
+          id="field-41"
+          name="lastname"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Last Name"
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+        <div
+          className="chakra-form__helper-text css-1xnfdvb"
+          id="field-41-helptext"
+        >
+          
+        </div>
+      </div>
+      <hr
+        aria-orientation="horizontal"
+        className="chakra-divider css-1upb9tn"
+        role="separator"
+      />
+      <div
+        className="chakra-form-control css-1kxonj9"
+        role="group"
+      >
+        <input
+          aria-describedby="field-42-helptext"
+          aria-label="Email"
+          aria-required={true}
+          className="chakra-input css-0"
+          data-testid="email"
+          disabled={false}
+          id="field-42"
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Email"
+          readOnly={false}
+          required={true}
+          type="email"
+          value=""
+        />
+        <div
+          className="chakra-form__helper-text css-1xnfdvb"
+          id="field-42-helptext"
+        >
+          
+        </div>
+      </div>
+      <button
+        className="chakra-button css-oqfhsh"
+        onClick={[Function]}
+        type="submit"
+      >
+        Add the Assistant
+      </button>
+    </div>
+  </form>
+</div>
+`;

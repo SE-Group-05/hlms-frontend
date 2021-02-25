@@ -47,13 +47,14 @@ function TouristsTable(props) {
                 </Thead>
                 <Tbody>
                 {props.tourists.map((tourist,i)=>{
-                    <Tr>
+                    return(<Tr>
                         <Td>{DP('user', "./user.png")}</Td>
-                        <Td>{tourist.firstname} {tourist.lastname} </Td>
+                        <Td data-testid = "name">{tourist.firstname} {tourist.lastname} </Td>
                         <Td>{reviews(2,50)}</Td>
                         <Td><Badge colorScheme="green">Active</Badge></Td>
                         <Td><Button size="xs" colorScheme="teal" variant="ghost">Restrict</Button></Td>
-                    </Tr>
+                    </Tr>);
+                    
                 })}
                     
                     

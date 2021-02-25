@@ -24,7 +24,7 @@ function VisitingPlacePreview(props) {
             <Stack spacing={3}>
                 <Box shadow="xl" p='10px' rounded="md" mb='10px' >
                         <Text fontSize="3xl" >Description</Text>
-                        <Text>{data.description}</Text>
+                        <Text data-testid="description">{data.description}</Text>
                     </Box>
                 
                     <Box>
@@ -36,7 +36,7 @@ function VisitingPlacePreview(props) {
                     <Box shadow="xl" p='10px' rounded="md" mb='10px' >
                         <Text fontSize="2xl" >Distance
 
-                        <Badge ml="1" fontSize="0.8em" colorScheme="green" variant='outline'>
+                        <Badge data-testid="distance" ml="1" fontSize="0.8em" colorScheme="green" variant='outline'>
                                 {data.distance} km
                             </Badge>
                         </Text>
@@ -58,7 +58,7 @@ function VisitingPlacePreview(props) {
                 
                     <Box shadow="xl" p='10px' rounded="md" mb='10px' >
                         <Text fontSize="2xl">Time to Reach
-                    <Badge ml="1" fontSize="0.8em" colorScheme="red" variant='outline'>
+                    <Badge data-testid="timetoreach" ml="1" fontSize="0.8em" colorScheme="red" variant='outline'>
                                 {data.timeToReach} min
                             </Badge>
                         </Text>

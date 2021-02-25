@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-19d9m9t"
+>
+  <h4
+    className="chakra-heading css-biiv2x"
+  >
+    Add a Visiting Place
+  </h4>
+  <form
+    action="submit"
+  >
+    <div
+      className="chakra-stack css-1n2jfo2"
+    >
+      <p
+        className="chakra-text css-0"
+      >
+        Name of the place
+      </p>
+      <div
+        className="chakra-form-control css-1kxonj9"
+        role="group"
+      >
+        <input
+          aria-describedby="field-98-helptext"
+          aria-label="Name"
+          aria-required={true}
+          className="chakra-input css-0"
+          data-testid="placename"
+          disabled={false}
+          id="field-98"
+          name="placeName"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Name of the place"
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+        <div
+          className="chakra-form__helper-text css-1xnfdvb"
+          id="field-98-helptext"
+        >
+          
+        </div>
+      </div>
+      <p
+        className="chakra-text css-0"
+      >
+        Description
+      </p>
+      <div
+        className="chakra-form-control css-1kxonj9"
+        role="group"
+      >
+        <textarea
+          aria-describedby="field-99-helptext"
+          aria-label="Description"
+          aria-required={true}
+          className="chakra-textarea css-0"
+          data-testid="description"
+          disabled={false}
+          id="field-99"
+          name="description"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Description"
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+        <div
+          className="chakra-form__helper-text css-1xnfdvb"
+          id="field-99-helptext"
+        >
+          
+        </div>
+      </div>
+      <hr
+        aria-orientation="horizontal"
+        className="chakra-divider css-1upb9tn"
+        role="separator"
+      />
+      <p
+        className="chakra-text css-0"
+      >
+        Location
+      </p>
+      <div
+        className="chakra-form-control css-1kxonj9"
+        role="group"
+      >
+        <div
+          className="chakra-input__group css-4302v8"
+        >
+          <input
+            aria-describedby="field-100-helptext"
+            aria-label="Latitude"
+            aria-required={true}
+            className="chakra-input css-0"
+            data-testid="latitude"
+            disabled={false}
+            id="field-100"
+            name="latitude"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Latitude"
+            readOnly={false}
+            required={true}
+            type="text"
+            value=""
+          />
+          <input
+            aria-describedby="field-100-helptext"
+            aria-label="Longitude"
+            aria-required={true}
+            className="chakra-input css-0"
+            data-testid="longitude"
+            disabled={false}
+            id="field-100"
+            name="longitude"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Longitude"
+            readOnly={false}
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="chakra-form__helper-text css-1xnfdvb"
+          id="field-100-helptext"
+        >
+          
+           
+          
+        </div>
+      </div>
+      <div
+        className="css-0"
+        data-testid="map"
+      >
+        <div
+          style={
+            Object {
+              "cursor": "grab",
+              "height": 400,
+              "position": "relative",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "height": "100%",
+                "position": "relative",
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className=""
+              style={
+                Object {
+                  "height": "100%",
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "visibility": "inherit",
+                  "width": "100%",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+      <p
+        className="chakra-text css-0"
+      >
+        Distance (Km)
+      </p>
+      <div
+        className="chakra-form-control css-1kxonj9"
+        role="group"
+      >
+        <div
+          className="css-e69dqy"
+          defaultValue={0}
+          value={0}
+        >
+          <input
+            aria-describedby="field-101-helptext"
+            aria-disabled={false}
+            aria-invalid={true}
+            aria-required={true}
+            aria-valuemax={30}
+            aria-valuemin={0.1}
+            aria-valuenow={0}
+            aria-valuetext="0"
+            autoComplete="off"
+            autoCorrect="off"
+            className="css-8atqhb"
+            disabled={false}
+            id="field-101"
+            inputMode="decimal"
+            name="distance"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            pattern="[0-9]*(.[0-9]+)?"
+            placeholder="Distance"
+            readOnly={false}
+            required={true}
+            role="spinbutton"
+            type="text"
+            value={0}
+          />
+          <div
+            aria-hidden={true}
+            className="css-b10tx0"
+          >
+            <div
+              className="css-1ob8896"
+              disabled={false}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <svg
+                className="chakra-icon css-onkibi"
+                focusable={false}
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12.8,5.4c-0.377-0.504-1.223-0.504-1.6,0l-9,12c-0.228,0.303-0.264,0.708-0.095,1.047 C2.275,18.786,2.621,19,3,19h18c0.379,0,0.725-0.214,0.895-0.553c0.169-0.339,0.133-0.744-0.095-1.047L12.8,5.4z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div
+              className="css-1ob8896"
+              disabled={false}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <svg
+                className="chakra-icon css-onkibi"
+                focusable={false}
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M21,5H3C2.621,5,2.275,5.214,2.105,5.553C1.937,5.892,1.973,6.297,2.2,6.6l9,12 c0.188,0.252,0.485,0.4,0.8,0.4s0.611-0.148,0.8-0.4l9-12c0.228-0.303,0.264-0.708,0.095-1.047C21.725,5.214,21.379,5,21,5z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          className="chakra-form__helper-text css-1xnfdvb"
+          id="field-101-helptext"
+        >
+          
+        </div>
+      </div>
+      <p
+        className="chakra-text css-0"
+      >
+        Available Travelling Methods
+      </p>
+      <div
+        className="chakra-form-control css-1kxonj9"
+        role="group"
+      >
+        <div
+          className="chakra-stack css-loe1j3"
+        >
+          <label
+            className="chakra-checkbox css-dfdulk"
+          >
+            <input
+              checked={false}
+              className="chakra-checkbox__input"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              style={
+                Object {
+                  "border": "0px",
+                  "clip": "rect(0px, 0px, 0px, 0px)",
+                  "height": "1px",
+                  "margin": "-1px",
+                  "overflow": "hidden",
+                  "padding": "0px",
+                  "position": "absolute",
+                  "whiteSpace": "nowrap",
+                  "width": "1px",
+                }
+              }
+              type="checkbox"
+            />
+            <span
+              aria-hidden={true}
+              className="chakra-checkbox__control css-dnty2r"
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+            />
+            <span
+              className="chakra-checkbox__label css-1oeb2oe"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            >
+              Bus
+            </span>
+          </label>
+          <label
+            className="chakra-checkbox css-dfdulk"
+          >
+            <input
+              checked={false}
+              className="chakra-checkbox__input"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              style={
+                Object {
+                  "border": "0px",
+                  "clip": "rect(0px, 0px, 0px, 0px)",
+                  "height": "1px",
+                  "margin": "-1px",
+                  "overflow": "hidden",
+                  "padding": "0px",
+                  "position": "absolute",
+                  "whiteSpace": "nowrap",
+                  "width": "1px",
+                }
+              }
+              type="checkbox"
+            />
+            <span
+              aria-hidden={true}
+              className="chakra-checkbox__control css-dnty2r"
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+            />
+            <span
+              className="chakra-checkbox__label css-1oeb2oe"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            >
+              Train
+            </span>
+          </label>
+          <label
+            className="chakra-checkbox css-dfdulk"
+          >
+            <input
+              checked={false}
+              className="chakra-checkbox__input"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              style={
+                Object {
+                  "border": "0px",
+                  "clip": "rect(0px, 0px, 0px, 0px)",
+                  "height": "1px",
+                  "margin": "-1px",
+                  "overflow": "hidden",
+                  "padding": "0px",
+                  "position": "absolute",
+                  "whiteSpace": "nowrap",
+                  "width": "1px",
+                }
+              }
+              type="checkbox"
+            />
+            <span
+              aria-hidden={true}
+              className="chakra-checkbox__control css-dnty2r"
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+            />
+            <span
+              className="chakra-checkbox__label css-1oeb2oe"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            >
+              Car
+            </span>
+          </label>
+          <label
+            className="chakra-checkbox css-dfdulk"
+          >
+            <input
+              checked={false}
+              className="chakra-checkbox__input"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              style={
+                Object {
+                  "border": "0px",
+                  "clip": "rect(0px, 0px, 0px, 0px)",
+                  "height": "1px",
+                  "margin": "-1px",
+                  "overflow": "hidden",
+                  "padding": "0px",
+                  "position": "absolute",
+                  "whiteSpace": "nowrap",
+                  "width": "1px",
+                }
+              }
+              type="checkbox"
+            />
+            <span
+              aria-hidden={true}
+              className="chakra-checkbox__control css-dnty2r"
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+            />
+            <span
+              className="chakra-checkbox__label css-1oeb2oe"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            >
+              Threewheeler
+            </span>
+          </label>
+          <label
+            className="chakra-checkbox css-dfdulk"
+          >
+            <input
+              checked={false}
+              className="chakra-checkbox__input"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              style={
+                Object {
+                  "border": "0px",
+                  "clip": "rect(0px, 0px, 0px, 0px)",
+                  "height": "1px",
+                  "margin": "-1px",
+                  "overflow": "hidden",
+                  "padding": "0px",
+                  "position": "absolute",
+                  "whiteSpace": "nowrap",
+                  "width": "1px",
+                }
+              }
+              type="checkbox"
+            />
+            <span
+              aria-hidden={true}
+              className="chakra-checkbox__control css-dnty2r"
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+            />
+            <span
+              className="chakra-checkbox__label css-1oeb2oe"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            >
+              Foot
+            </span>
+          </label>
+        </div>
+        <div
+          className="chakra-form__helper-text css-1xnfdvb"
+          id="field-102-helptext"
+        >
+          
+        </div>
+      </div>
+      <p
+        className="chakra-text css-0"
+      >
+        Time to reach (min)
+      </p>
+      <div
+        className="chakra-form-control css-1kxonj9"
+        role="group"
+      >
+        <div
+          className="css-e69dqy"
+          defaultValue={0}
+          value={0}
+        >
+          <input
+            aria-describedby="field-103-helptext"
+            aria-disabled={false}
+            aria-invalid={true}
+            aria-required={true}
+            aria-valuemax={180}
+            aria-valuemin={1}
+            aria-valuenow={0}
+            aria-valuetext="0"
+            autoComplete="off"
+            autoCorrect="off"
+            className="css-8atqhb"
+            disabled={false}
+            id="field-103"
+            inputMode="decimal"
+            name="timeToReach"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            pattern="[0-9]*(.[0-9]+)?"
+            placeholder="Time To Reach"
+            readOnly={false}
+            required={true}
+            role="spinbutton"
+            type="text"
+            value={0}
+          />
+          <div
+            aria-hidden={true}
+            className="css-b10tx0"
+          >
+            <div
+              className="css-1ob8896"
+              disabled={false}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <svg
+                className="chakra-icon css-onkibi"
+                focusable={false}
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12.8,5.4c-0.377-0.504-1.223-0.504-1.6,0l-9,12c-0.228,0.303-0.264,0.708-0.095,1.047 C2.275,18.786,2.621,19,3,19h18c0.379,0,0.725-0.214,0.895-0.553c0.169-0.339,0.133-0.744-0.095-1.047L12.8,5.4z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div
+              className="css-1ob8896"
+              disabled={false}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <svg
+                className="chakra-icon css-onkibi"
+                focusable={false}
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M21,5H3C2.621,5,2.275,5.214,2.105,5.553C1.937,5.892,1.973,6.297,2.2,6.6l9,12 c0.188,0.252,0.485,0.4,0.8,0.4s0.611-0.148,0.8-0.4l9-12c0.228-0.303,0.264-0.708,0.095-1.047C21.725,5.214,21.379,5,21,5z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          className="chakra-form__helper-text css-1xnfdvb"
+          id="field-103-helptext"
+        >
+          
+        </div>
+      </div>
+      <p
+        className="chakra-text css-0"
+      >
+        Add Images
+      </p>
+      <button
+        className="chakra-button css-oqfhsh"
+        onClick={[Function]}
+        type="submit"
+      >
+        Add the place
+      </button>
+    </div>
+  </form>
+</div>
+`;
