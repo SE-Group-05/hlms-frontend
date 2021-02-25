@@ -29,23 +29,25 @@ function TouristCard(props) {
                         </Badge>
 
                         </Box>                        
-                            <Box
+                        <Box
+                                data-testid="full_name"
                                 mt="1"
                                 fontWeight="semibold"
                                 as="h4"
                                 lineHeight="tight"
                                 isTruncated
                                 
+                                
                             >
                             {props.first_name+" "+props.last_name}
                             </Box>
                             
 
-                        <Box>
+                        <Box data-testid="email">
                             {props.email}
                          
                         </Box>
-                        <Box>
+                        <Box data-testid="phone">
                             {props.phone}
                             
                          

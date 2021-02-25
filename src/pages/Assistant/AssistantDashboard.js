@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Center, Heading, Divider, Wrap, WrapItem } from "@chakra-ui/react";
-import PreviewCard from "../../components/Assistant/MenuPreviewCard";
+import MenuPreviewCard from "../../components/Assistant/MenuPreviewCard";
 
 
 function AssistantDashboard() {
@@ -14,7 +14,7 @@ function AssistantDashboard() {
                     <Divider />
                     <Wrap spacing='50px' justify="center" mt='20px' mb='10px'>
                         <WrapItem>
-                            <PreviewCard
+                            <MenuPreviewCard
                                 imageUrl="https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/8/2017/04/21143242/tourists.jpg"
                                 imageAlt="Tourist Couple Picture"
                                 title="Tourist Manager "
@@ -24,7 +24,7 @@ function AssistantDashboard() {
                         </WrapItem>
                         <WrapItem>
 
-                            <PreviewCard
+                            <MenuPreviewCard
                                 imageUrl="https://trendipia.com/wp-content/uploads/2017/05/phuket-thailand-beach-800x416.jpeg"
                                 imageAlt="Location Picture"
                                 title="View Visiting Place"
@@ -36,7 +36,7 @@ function AssistantDashboard() {
                         </WrapItem>
                         <WrapItem>
 
-                            <PreviewCard
+                            <MenuPreviewCard
                                 imageUrl="https://web-static.wrike.com/cdn-cgi/image/width=880,format=auto,q=80/blog/content/uploads/2020/01/Five-Features-of-a-Good-Monthly-Employee-Work-Schedule-Template.jpg?av=unknown"
                                 imageAlt="Tourist Couple Picture"
                                 title="Schedule Manager"

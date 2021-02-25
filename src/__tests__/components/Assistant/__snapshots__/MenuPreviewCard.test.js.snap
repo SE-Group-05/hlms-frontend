@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<a
+  as={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "to": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  href="/app/tourists"
+  onClick={[Function]}
+>
+  <div
+    className="css-17xbt85"
+    data-testid="MenuPreviewCard"
+  >
+    <img
+      alt="Tourist Couple Picture"
+      className="chakra-image__placeholder css-1rdn362"
+    />
+    <div
+      className="css-mfzh6r"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-76gc8x"
+          data-testid="title"
+        >
+          Tourist Manager
+        </div>
+        <div
+          className="chakra-collapse"
+          style={
+            Object {
+              "display": "none",
+              "height": "0px",
+              "opacity": 0,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <div
+            className="css-j5j99d"
+          >
+            Add Tousrists, Delete Tourists, Update Tourists Information and View Activites
+          </div>
+        </div>
+        <div
+          className="css-k008qs"
+        >
+          <div
+            className="css-0"
+          />
+          <div
+            className="css-17xejub"
+          />
+          <div
+            className="css-0"
+          >
+            <button
+              className="chakra-button css-143x6ju"
+              onClick={[Function]}
+              type="button"
+            >
+              Show 
+              More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+`;

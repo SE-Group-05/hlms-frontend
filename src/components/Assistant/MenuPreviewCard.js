@@ -3,13 +3,14 @@ import { Box, Heading, Text, Image, Badge, Grid, GridItem, ReactRouterLink, Butt
 import { Link } from 'react-router-dom';
 import { Link as ReachLink } from "@reach/router"
 
-function PreviewCard(props) {
+function MenuPreviewCard(props) {
     const [show, setShow] = React.useState(false)
 
     const handleToggle = () => setShow(!show)
 
 
     return (
+        
         <Link to={props.linkTo} as={ReachLink}>
             <Box
                 data-testid="MenuPreviewCard"
@@ -35,6 +36,7 @@ function PreviewCard(props) {
                             fontSize="xl"
                             textTransform="uppercase"
                             textAlign="center"
+                            data-testid="title"
                         >
                             {props.title}
                         </Box>
@@ -62,7 +64,8 @@ function PreviewCard(props) {
                     </Box>
                 </Box>
             </Box>
-        </Link>
+            </Link>
+            
     )
 }
-export default PreviewCard;
+export default MenuPreviewCard;
