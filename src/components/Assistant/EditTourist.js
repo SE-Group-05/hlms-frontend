@@ -65,7 +65,7 @@ function EditTourist(props) {
                 <AlertIcon />
                 Error
             </Alert> : null}
-            <form action='submit' onSubmit ={onSubmit}>
+            <form data-testid="form" action='submit' onSubmit ={onSubmit}>
                 <Stack spacing={4}>
                     <Center>
                         <Avatar size="2xl" name="Profile photo" src={props.imageUrl} />
@@ -77,6 +77,7 @@ function EditTourist(props) {
                                     pointerEvents="none"
                                     children={<AiOutlineUser color="" />} />
                                 <Input
+                                    data-testid="first_name"
                                     name="first_name"
                                     value={data.first_name}
                                     placeholder={props.first_name}
