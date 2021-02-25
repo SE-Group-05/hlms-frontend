@@ -6,7 +6,6 @@ exports[`matches snapshot 1`] = `
 >
   <h4
     className="chakra-heading css-biiv2x"
-    data-testid="placename"
   />
   <div
     className="css-1poympq"
@@ -20,7 +19,8 @@ exports[`matches snapshot 1`] = `
     className="chakra-stack css-1n2jfo2"
   >
     <div
-      className="css-nc9qvg"
+      className="css-xwghf6"
+      data-testId="description"
     >
       <p
         className="chakra-text css-1tapsqs"
@@ -29,17 +29,15 @@ exports[`matches snapshot 1`] = `
       </p>
       <p
         className="chakra-text css-0"
-        data-testid="description"
       >
-        no description
+        beach
       </p>
     </div>
     <div
-      className="css-nc9qvg"
+      className="css-0"
     >
       <div
-        className="css-0"
-        data-testid="map"
+        className="css-qmliyb"
       >
         <div
           style={
@@ -77,7 +75,8 @@ exports[`matches snapshot 1`] = `
       </div>
     </div>
     <div
-      className="css-nc9qvg"
+      className="css-xwghf6"
+      data-testId="distance"
     >
       <p
         className="chakra-text css-1n49pl7"
@@ -85,15 +84,14 @@ exports[`matches snapshot 1`] = `
         Distance
         <span
           className="chakra-badge css-1yz77up"
-          data-testid="distance"
         >
-          20
+          23.6
            km
         </span>
       </p>
     </div>
     <div
-      className="css-nc9qvg"
+      className="css-xwghf6"
     >
       <p
         className="chakra-text css-1n49pl7"
@@ -104,10 +102,16 @@ exports[`matches snapshot 1`] = `
         >
           bus
         </span>
+        <span
+          className="chakra-badge css-1e8ypgz"
+        >
+          car
+        </span>
       </p>
     </div>
     <div
-      className="css-nc9qvg"
+      className="css-xwghf6"
+      data-testId="timeToReach"
     >
       <p
         className="chakra-text css-1n49pl7"
@@ -115,13 +119,20 @@ exports[`matches snapshot 1`] = `
         Time to Reach
         <span
           className="chakra-badge css-1yz77up"
-          data-testid="timetoreach"
         >
-          30
+          20
            min
         </span>
       </p>
     </div>
+    <button
+      className="chakra-button css-oqfhsh"
+      data-testid="addButton"
+      onClick={[Function]}
+      type="button"
+    >
+      Add To Schedule
+    </button>
   </div>
 </div>
 `;
