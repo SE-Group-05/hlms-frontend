@@ -5,6 +5,7 @@ import {
 } from "@chakra-ui/react";
 
 import { ValidateEmail, isRequired } from '../../utils/Validation2';
+
 const BASE_URL = '';
 
 

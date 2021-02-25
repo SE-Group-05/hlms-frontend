@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-1pyso0s"
+>
+  <div
+    className="css-102niab"
+  >
+    <h2
+      className="chakra-heading css-1h40200"
+    >
+      Dashboard
+    </h2>
+    <h4
+      className="chakra-heading css-x05dfc"
+      data-testid="placename"
+    >
+      not-works
+    </h4>
+    <hr
+      aria-orientation="horizontal"
+      className="chakra-divider css-1upb9tn"
+      role="separator"
+    />
+    <div
+      className="css-1dqvaqq"
+    >
+      <div
+        className="css-3pm0np"
+      >
+        <p
+          className="chakra-text css-gnndzk"
+          data-testid="current_value"
+        />
+        <p
+          className="chakra-text css-e1ztz8"
+          data-testid="heading"
+        >
+          Assistants
+        </p>
+      </div>
+      <div
+        className="css-1hteus0"
+      >
+        <p
+          className="chakra-text css-gnndzk"
+          data-testid="current_value"
+        />
+        <p
+          className="chakra-text css-e1ztz8"
+          data-testid="heading"
+        >
+          Tourists Total
+        </p>
+      </div>
+      <div
+        className="css-und8fx"
+      >
+        <p
+          className="chakra-text css-gnndzk"
+          data-testid="current_value"
+        />
+        <p
+          className="chakra-text css-e1ztz8"
+          data-testid="heading"
+        >
+          Tourists In
+        </p>
+      </div>
+      <div
+        className="css-ls0v9t"
+      >
+        <p
+          className="chakra-text css-gnndzk"
+          data-testid="current_value"
+        />
+        <p
+          className="chakra-text css-e1ztz8"
+          data-testid="heading"
+        >
+          Visiting Places
+        </p>
+      </div>
+      <div
+        className="css-1e44mx0"
+      >
+        <p
+          className="chakra-text css-gnndzk"
+          data-testid="current_value"
+        />
+        <p
+          className="chakra-text css-e1ztz8"
+          data-testid="heading"
+        >
+          Schedules
+        </p>
+      </div>
+    </div>
+    <hr
+      aria-orientation="horizontal"
+      className="chakra-divider css-1upb9tn"
+      role="separator"
+    />
+    <h2
+      className="chakra-heading css-hkdy83"
+    >
+      Schedules
+    </h2>
+    <div
+      className="css-0"
+    >
+      <div
+        className="css-11pq3pc"
+      >
+        <div
+          className="css-136pjoj"
+        >
+          <div
+            className="chakra-stack css-c0d8a5"
+          >
+            <span
+              className="chakra-badge css-p5nc7k"
+            >
+              Mirissa
+            </span>
+            <span
+              className="chakra-badge css-166rvjf"
+            >
+              completed
+            </span>
+          </div>
+          <div
+            className="css-61ehcq"
+          >
+            <div
+              className="css-0"
+            >
+              <p
+                className="chakra-text css-1lj023j"
+              >
+                 Schedule By,
+              </p>
+              <p
+                className="chakra-text css-1lj023j"
+                data-testid="user"
+              >
+                <span
+                  className="chakra-avatar css-1ohlb5u"
+                >
+                  <div
+                    aria-label="user"
+                    className="chakra-avatar__initials css-0"
+                  >
+                    u
+                  </div>
+                </span>
+                Kamal perera
+              </p>
+            </div>
+            <div
+              className="css-0"
+            >
+              <p
+                className="chakra-text css-1lj023j"
+              >
+                Fair
+              </p>
+              <p
+                className="chakra-text css-6dvxm2"
+                data-testid="fair"
+              >
+                Rs. 
+                Rs. 200.00
+              </p>
+            </div>
+          </div>
+          <hr
+            aria-orientation="horizontal"
+            className="chakra-divider css-1upb9tn"
+            role="separator"
+          />
+          <p
+            className="chakra-text css-8j1nyb"
+          >
+            Path
+          </p>
+          <div
+            className="chakra-stack css-19kpmhn"
+          >
+            <span
+              className="chakra-badge css-ifsvay"
+              data-testid="path"
+            >
+              Mirissa
+            </span>
+            <span
+              className="chakra-badge css-ifsvay"
+              data-testid="path"
+            >
+              Galle fort
+            </span>
+            <span
+              className="chakra-badge css-ifsvay"
+              data-testid="path"
+            >
+              Jungle beach
+            </span>
+          </div>
+          <div
+            className="css-61ehcq"
+          >
+            <div
+              className="css-0"
+            >
+              <p
+                className="chakra-text css-8j1nyb"
+              >
+                Travel Method
+              </p>
+              <span
+                className="chakra-badge css-ifsvay"
+                data-testid="method"
+              >
+                bus
+              </span>
+            </div>
+            <div
+              className="css-0"
+            >
+              <p
+                className="chakra-text css-8j1nyb"
+              >
+                Date
+              </p>
+              <span
+                className="chakra-badge css-ifsvay"
+              >
+                2021/01/20
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr
+      aria-orientation="horizontal"
+      className="chakra-divider css-1upb9tn"
+      role="separator"
+    />
+    <h2
+      className="chakra-heading css-hkdy83"
+    >
+      Visiting Places
+    </h2>
+    <div
+      className="css-0"
+    >
+      <div
+        className="css-qmliyb"
+      >
+        <div
+          style={
+            Object {
+              "cursor": "grab",
+              "height": 400,
+              "position": "relative",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "height": "100%",
+                "position": "relative",
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className=""
+              style={
+                Object {
+                  "height": "100%",
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "visibility": "inherit",
+                  "width": "100%",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
