@@ -2,7 +2,7 @@
 import React from "react";
 
 // import react-testing methods
-import { render, cleanup, fireEvent } from "@testing-library/react";
+import { render, cleanup, fireEvent, queryByTestId } from "@testing-library/react";
 
 // add custom jest matchers from jest-dom
 import "@testing-library/jest-dom";
@@ -30,7 +30,7 @@ it("renders map correctly", () => {
   };
   const { getByTestId } = render(<Map onClickonMap={onClickonMap} />);
 
-//  fireEvent.click(getByTestId("map"));
+  fireEvent.click(getByTestId("map"));
 });
 
 it("matches snapshot", () => {

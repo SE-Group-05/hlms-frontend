@@ -55,8 +55,8 @@ function AdminDashboard() {
           <Heading as="h2" size="2xl" ml="20px" mb="20px">
             Dashboard
           </Heading>
-          <Heading as="h4" size="md" ml="20px" mb="30px">
-            Sunrise - Hotel Management System
+          <Heading data-testid = "placename" as="h4" size="md" ml="20px" mb="30px">
+           {dashboard.users_count}{dashboard.users_count ? "works" : "not-works"}
           </Heading>
           <Divider />
           <SimpleGrid minChildWidth="120px" spacing="40px" mb="10px" mt="20px">

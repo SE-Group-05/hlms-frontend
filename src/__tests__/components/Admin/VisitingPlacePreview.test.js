@@ -65,32 +65,6 @@ it("renders visiting place preview correctly", () => {
   expect(getByTestId("description")).toHaveTextContent("no description");
 });
 
-it("changes to edit mode correctly when click on edit button", () => {
-  const { queryByTestId, getByText } = render(
-    <VisitingPlacePreview
-      data={{
-        placename: "Galle",
-        distance: "20",
-        timeToReach: "30",
-        description: "no description",
-        methods: ["bus"],
-      }}
-    />
-  );
-
-  //Check the componet before clck the edit button
-  expect(queryByTestId("distance")).toBeInTheDocument();
-  expect(queryByTestId("timetoreach")).toBeInTheDocument();
-  expect(queryByTestId("description")).toBeInTheDocument();
-
-  //expect(queryByTestId("distance")).not.toBeInTheDocument();
-  //expect(queryByTestId("timetoreach")).not.toBeInTheDocument();
-  //expect(queryByTestId("description")).not.toBeInTheDocument();
-
-  //Click on the edit button
-  //fireEvent.click(getByText("Edit the place"));
-});
-
 it("matches snapshot", () => {
   const tree = renderer.create(
     <VisitingPlacePreview
