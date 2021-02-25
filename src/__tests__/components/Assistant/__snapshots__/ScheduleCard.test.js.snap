@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-136pjoj"
+>
+  <div
+    className="chakra-stack css-c0d8a5"
+  >
+    <span
+      className="chakra-badge css-p5nc7k"
+    />
+    <span
+      className="chakra-badge css-166rvjf"
+    />
+  </div>
+  <div
+    className="css-61ehcq"
+  >
+    <div
+      className="css-0"
+    >
+      <p
+        className="chakra-text css-1lj023j"
+      >
+         Schedule By,
+      </p>
+      <p
+        className="chakra-text css-1lj023j"
+        data-testid="user"
+      >
+        <span
+          className="chakra-avatar css-1ohlb5u"
+        >
+          <div
+            aria-label="user"
+            className="chakra-avatar__initials css-0"
+          >
+            u
+          </div>
+        </span>
+        Chandima
+      </p>
+    </div>
+    <div
+      className="css-0"
+    >
+      <p
+        className="chakra-text css-1lj023j"
+      >
+        Fair
+      </p>
+      <p
+        className="chakra-text css-6dvxm2"
+        data-testid="fair"
+      >
+        Rs. 
+        100
+      </p>
+    </div>
+  </div>
+  <hr
+    aria-orientation="horizontal"
+    className="chakra-divider css-1upb9tn"
+    role="separator"
+  />
+  <p
+    className="chakra-text css-8j1nyb"
+  >
+    Path
+  </p>
+  <div
+    className="chakra-stack css-19kpmhn"
+  >
+    <span
+      className="chakra-badge css-ifsvay"
+      data-testid="path"
+    >
+      mirissa
+    </span>
+    <span
+      className="chakra-badge css-ifsvay"
+      data-testid="path"
+    >
+      galle
+    </span>
+  </div>
+  <div
+    className="css-61ehcq"
+  >
+    <div
+      className="css-0"
+    >
+      <p
+        className="chakra-text css-8j1nyb"
+      >
+        Travel Method
+      </p>
+      <span
+        className="chakra-badge css-ifsvay"
+        data-testid="method"
+      >
+        Bus
+      </span>
+    </div>
+    <div
+      className="css-0"
+    >
+      <p
+        className="chakra-text css-8j1nyb"
+      >
+        Date
+      </p>
+      <span
+        className="chakra-badge css-ifsvay"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Text, Badge, Avatar, Stack, SimpleGrid, Divider } from "@chakra-ui/react";
+import { Box, Text, Badge, Avatar, Stack, SimpleGrid,Divider } from "@chakra-ui/react";
 
 
 function ScheduleCard(props) {
@@ -7,7 +7,7 @@ function ScheduleCard(props) {
     for (var i = 0; i < props.path.length; i++) {
         path.push(
             <>
-                <Badge variant="outline" colorScheme="cyan">
+                <Badge data-testid="path" variant="outline" colorScheme="cyan">
                     {props.path[i]}
 
                 </Badge>
@@ -37,8 +37,8 @@ function ScheduleCard(props) {
 
 
     return (
-        <Box width='auto' borderWidth="1px" borderRadius="lg" overflow="hidden" p='10px' mb='10px' boxShadow="xl">
-            <Stack direction={{ base: "column", md: 'row' }} mb='10px'>
+        <Box width='auto' borderWidth="1px" borderRadius="lg" overflow="hidden" p='10px' mb='10px'  boxShadow="xl">
+            <Stack direction={{base:"column", md:'row'}} mb='10px'>
                 <Badge variant="solid" colorScheme="purple" fontSize="20px">
                     {props.place}
                 </Badge>
@@ -50,7 +50,7 @@ function ScheduleCard(props) {
             <SimpleGrid columns={2} spacing='1px'>
                 <Box>
                     <Text fontSize="xs"> Schedule By,</Text>
-                    <Text fontSize="xs"><Avatar
+                    <Text fontSize="xs" data-testid = 'user' ><Avatar
                         size="xs"
                         name='user'
                         src='./user.png'
@@ -59,7 +59,7 @@ function ScheduleCard(props) {
                 </Box>
                 <Box>
                     <Text fontSize="xs">Fair</Text>
-                    <Text fontSize="xl">{props.fair}</Text>
+                    <Text data-testid = 'fair' fontSize="xl">Rs. {props.fair}</Text>
 
                 </Box>
             </SimpleGrid>
@@ -68,7 +68,7 @@ function ScheduleCard(props) {
 
 
             <Text fontSize="lg" mt='10px'>Path</Text>
-            <Stack direction={{ base: "column", md: 'row' }}>
+            <Stack direction={{base:"column", md:'row'}}>
                 {path}
             </Stack>
 
@@ -76,7 +76,7 @@ function ScheduleCard(props) {
             <SimpleGrid columns={2} spacing='1px'>
                 <Box>
                     <Text fontSize="lg" mt='10px'>Travel Method</Text>
-                    <Badge variant="outline" colorScheme="orange">
+                    <Badge data-testid = "method" variant="outline" colorScheme="orange">
                         {props.travelmethod}
 
                     </Badge>
