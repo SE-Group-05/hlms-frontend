@@ -20,7 +20,6 @@ exports[`matches snapshot 1`] = `
   >
     <div
       className="css-xwghf6"
-      data-testId="description"
     >
       <p
         className="chakra-text css-1tapsqs"
@@ -29,6 +28,7 @@ exports[`matches snapshot 1`] = `
       </p>
       <p
         className="chakra-text css-0"
+        data-testid="description"
       >
         beach
       </p>
@@ -76,7 +76,6 @@ exports[`matches snapshot 1`] = `
     </div>
     <div
       className="css-xwghf6"
-      data-testId="distance"
     >
       <p
         className="chakra-text css-1n49pl7"
@@ -84,6 +83,7 @@ exports[`matches snapshot 1`] = `
         Distance
         <span
           className="chakra-badge css-1yz77up"
+          data-testid="distance"
         >
           23.6
            km
@@ -119,6 +119,7 @@ exports[`matches snapshot 1`] = `
         Time to Reach
         <span
           className="chakra-badge css-1yz77up"
+          data-testid="timetoreach"
         >
           20
            min
