@@ -2,7 +2,7 @@
 import React from "react";
 
 // import react-testing methods
-import { render, fireEvent, cleanup } from "@testing-library/react";
+import { render, fireEvent, cleanup, waitFor } from "@testing-library/react";
 
 // add custom jest matchers from jest-dom
 import "@testing-library/jest-dom/extend-expect";
@@ -28,7 +28,7 @@ it("renders without crashing", () => {
 });
 
 
-it("edit button works correctly", () => {
+it("edit button works correctly", async () => {
   const { queryByTestId, getByText } = render(
     <ViewSchedule />
   );
@@ -43,7 +43,8 @@ it("edit button works correctly", () => {
   fireEvent.change(queryByTestId("date"),{ target: { value: '2020/12/23' } })
   fireEvent.change(queryByTestId("time"),{ target: { value: '23:20' } })
 
-  fireEvent.click(getByText("Update the schedule")) 
+ 
+  
   fireEvent.click(getByText("Delete")) 
 
   

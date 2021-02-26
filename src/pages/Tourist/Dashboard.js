@@ -33,7 +33,7 @@ function TouristDashboard() {
     <>
       <Center w="100%" h="auto" p={4} pb="100px">
         <Box w="90%" h="auto" borderWidth="1px" borderRadius="lg" p="30px">
-          <Heading as="h2" size="2xl" ml="20px" mb="20px">
+          <Heading  as="h2" size="2xl" ml="20px" mb="20px">
             Dashboard
           </Heading>
           <Heading as="h4" size="md" ml="20px" mb="30px">
@@ -73,7 +73,7 @@ export const AlertBox = () => {
   </AlertTitle>
       <AlertDescription maxWidth="sm">
         <Text>Visit Visiting Places Page and Plan Your time</Text>
-        <Link to='/app/visitingplaces' as={ReachLink}>
+        <Link  href='/app/visitingplaces' as={ReachLink}>
           <Button borderRadius="8px" m="5" py="4" px="4" lineHeight="1" size="md">
             Go to Visiting places
           </Button>
