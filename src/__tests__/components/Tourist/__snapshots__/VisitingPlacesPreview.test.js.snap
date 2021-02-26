@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-mccp0p"
+>
+  <h4
+    className="chakra-heading css-biiv2x"
+  />
+  <div
+    className="css-1poympq"
+  >
+    <img
+      alt="photo"
+      className="chakra-image__placeholder css-clx8i5"
+    />
+  </div>
+  <div
+    className="chakra-stack css-1n2jfo2"
+  >
+    <div
+      className="css-xwghf6"
+    >
+      <p
+        className="chakra-text css-1tapsqs"
+      >
+        Description
+      </p>
+      <p
+        className="chakra-text css-0"
+        data-testid="description"
+      >
+        beach
+      </p>
+    </div>
+    <div
+      className="css-0"
+    >
+      <div
+        className="css-qmliyb"
+      >
+        <div
+          style={
+            Object {
+              "cursor": "grab",
+              "height": 400,
+              "position": "relative",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "height": "100%",
+                "position": "relative",
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className=""
+              style={
+                Object {
+                  "height": "100%",
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "visibility": "inherit",
+                  "width": "100%",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-xwghf6"
+    >
+      <p
+        className="chakra-text css-1n49pl7"
+      >
+        Distance
+        <span
+          className="chakra-badge css-1yz77up"
+          data-testid="distance"
+        >
+          23.6
+           km
+        </span>
+      </p>
+    </div>
+    <div
+      className="css-xwghf6"
+    >
+      <p
+        className="chakra-text css-1n49pl7"
+      >
+        Travelling Method
+        <span
+          className="chakra-badge css-1e8ypgz"
+        >
+          bus
+        </span>
+        <span
+          className="chakra-badge css-1e8ypgz"
+        >
+          car
+        </span>
+      </p>
+    </div>
+    <div
+      className="css-xwghf6"
+      data-testId="timeToReach"
+    >
+      <p
+        className="chakra-text css-1n49pl7"
+      >
+        Time to Reach
+        <span
+          className="chakra-badge css-1yz77up"
+          data-testid="timetoreach"
+        >
+          20
+           min
+        </span>
+      </p>
+    </div>
+    <button
+      className="chakra-button css-oqfhsh"
+      data-testid="addButton"
+      onClick={[Function]}
+      type="button"
+    >
+      Add To Schedule
+    </button>
+  </div>
+</div>
+`;

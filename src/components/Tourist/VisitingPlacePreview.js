@@ -13,7 +13,7 @@ function VisitingPlacePreview(props) {
 
         <Box border="1px" borderColor="gray.200" p={['5px', '15px', '25px']}>                
             
-                <Heading as="h4" size="lg" textAlign='center' pb='20px' pt='5px'>
+                <Heading as="h4" size="lg" textAlign='center' pb='20px' pt='5px' >
                     {data.placeName}
                 </Heading>
                 <Box shadow="xl" mb='20px' >
@@ -22,7 +22,7 @@ function VisitingPlacePreview(props) {
                 
 
             <Stack spacing={3}>
-                <Box shadow="xl" p='10px' rounded="md" mb='10px' >
+                <Box shadow="xl" p='10px' rounded="md" mb='10px'>
                         <Text fontSize="3xl" >Description</Text>
                         <Text data-testid="description">{data.description}</Text>
                     </Box>
@@ -56,7 +56,7 @@ function VisitingPlacePreview(props) {
 
                     </Box>
                 
-                    <Box shadow="xl" p='10px' rounded="md" mb='10px' >
+                    <Box shadow="xl" p='10px' rounded="md" mb='10px' data-testId="timeToReach">
                         <Text fontSize="2xl">Time to Reach
                     <Badge data-testid="timetoreach" ml="1" fontSize="0.8em" colorScheme="red" variant='outline'>
                                 {data.timeToReach} min
