@@ -68,7 +68,7 @@ const Assistents = () => {
       <AddAssistantArea onAssistantAdded={onAssistantAdded} />
       <Center w="100%" h="auto" p={4} pb='300px'>
         <Box w="90%" h="auto" borderWidth="1px" borderRadius="lg" p='10px'>
-          <Heading ml='20px' mb='20px'>Assistants</Heading>
+          <Heading ml='20px' mb='20px'>{assistants[0]} Assistants</Heading>
           <Center >
             <SearchBar text='Search Assistant...' value={search} onChange={(event) => handleChange(event)} onClick={() => searchData()} />
           </Center>

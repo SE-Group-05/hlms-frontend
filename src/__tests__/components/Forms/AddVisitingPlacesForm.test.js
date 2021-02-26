@@ -38,6 +38,9 @@ it("add place correctly", () => {
   fireEvent.click(getByText("Bus")) 
   fireEvent.click(getByText("Car")) 
   fireEvent.click(getByText("Foot")) 
+  fireEvent.click(getByText("Train")) 
+  fireEvent.click(getByText("Threewheeler")) 
+
 
 
   fireEvent.change(queryByTestId("placename"),{ target: { value: 'mirissa' } })

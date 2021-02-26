@@ -6,7 +6,7 @@ import { rest } from "msw";
 import { setupServer } from "msw/node";
 
 // import react-testing methods
-import { render, fireEvent, cleanup, waitFor } from "@testing-library/react";
+import { render, cleanup, waitFor } from "@testing-library/react";
 
 // add custom jest matchers from jest-dom
 import "@testing-library/jest-dom/extend-expect";
