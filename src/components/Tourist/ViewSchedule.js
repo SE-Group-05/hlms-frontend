@@ -11,7 +11,7 @@ import {
   AlertIcon,
   Checkbox,
 } from '@chakra-ui/react';
-import 'react-upload-gallery/dist/style.css';
+
 import axios from 'axios';
 
 const BASE_URL = '';
@@ -32,21 +32,8 @@ function ViewSchedule() {
   const [hasError, setHasError] = useState(false);
   const [editMode, setEditMode] = useState(false);
   const [show, setShow] = React.useState(false);
-  const handleClick = () => setShow(!show);
-  const handleToggle = ({ target }) =>
-    setState(s => ({ ...s, [target.name]: !s[target.name] }));
 
-  const [state, setState] = React.useState({});
-  const colourStyles = {
-    option: (styles, { data, isDisabled, isFocused, isSelected }) => {
-      console.log({ data, isDisabled, isFocused, isSelected });
-      return {
-        ...styles,
-        backgroundColor: isFocused ? '#999999' : null,
-        color: '#333333',
-      };
-    },
-  };
+
   const handleSubmit = async event => {
     event.preventDefault();
     console.log(data);
@@ -88,6 +75,7 @@ function ViewSchedule() {
               <Text>Travelling destination</Text>
               <FormControl isRequired>
                 <Input
+                data-testid = "place"
                   type="text"
                   value={data.place}
                   name="place"
@@ -105,7 +93,7 @@ function ViewSchedule() {
               <Text>Date</Text>
               <FormControl isRequired>
                 <Input
-                  type="date"
+                  data-testid = "date"
                   value={data.date}
                   name="date"
                   placeholder="Date"
@@ -122,6 +110,7 @@ function ViewSchedule() {
               <Text>Time</Text>
               <FormControl isRequired>
                 <Input
+                data-testid = "time"
                   type="time"
                   value={data.time}
                   name="time"
