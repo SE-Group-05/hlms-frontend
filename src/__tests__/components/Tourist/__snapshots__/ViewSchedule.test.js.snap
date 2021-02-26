@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-1ceyi20"
+>
+  <h4
+    className="chakra-heading css-biiv2x"
+  >
+    Current Schedule
+  </h4>
+  <form
+    action="submit"
+  >
+    <div
+      className="chakra-stack css-1n2jfo2"
+    >
+      <button
+        className="chakra-button css-oqfhsh"
+        onClick={[Function]}
+        type="button"
+      >
+        Edit
+      </button>
+      <button
+        className="chakra-button css-oqfhsh"
+        onClick={[Function]}
+        type="submit"
+      >
+        Delete
+      </button>
+    </div>
+  </form>
+</div>
+`;
