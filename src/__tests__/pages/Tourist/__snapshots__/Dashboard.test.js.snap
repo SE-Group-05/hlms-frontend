@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-1pyso0s"
+>
+  <div
+    className="css-102niab"
+  >
+    <h2
+      className="chakra-heading css-1h40200"
+    >
+      Dashboard
+    </h2>
+    <h4
+      className="chakra-heading css-x05dfc"
+    >
+      Sunrise - Hotel Management System
+    </h4>
+    <hr
+      aria-orientation="horizontal"
+      className="chakra-divider css-1upb9tn"
+      role="separator"
+    />
+    <div
+      className="chakra-alert css-a44o7p"
+      role="alert"
+    >
+      <span
+        className="chakra-alert__icon css-zngvza"
+      >
+        <svg
+          className="chakra-icon css-fi0ww0"
+          focusable={false}
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12,0A12,12,0,1,0,24,12,12.013,12.013,0,0,0,12,0Zm.25,5a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,12.25,5ZM14.5,18.5h-4a1,1,0,0,1,0-2h.75a.25.25,0,0,0,.25-.25v-4.5a.25.25,0,0,0-.25-.25H10.5a1,1,0,0,1,0-2h1a2,2,0,0,1,2,2v4.75a.25.25,0,0,0,.25.25h.75a1,1,0,1,1,0,2Z"
+            fill="currentColor"
+          />
+        </svg>
+      </span>
+      <div
+        className="chakra-alert__title css-wrynpv"
+      >
+        Looks Like you don't have Any Schedules yet!
+      </div>
+      <div
+        className="chakra-alert__desc css-1d5tdh6"
+      >
+        <p
+          className="chakra-text css-0"
+        >
+          Visit Visiting Places Page and Plan Your time
+        </p>
+        <a
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": Object {
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          href=""
+          onClick={[Function]}
+        >
+          <button
+            className="chakra-button css-1id3sq4"
+            type="button"
+          >
+            Go to Visiting places
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

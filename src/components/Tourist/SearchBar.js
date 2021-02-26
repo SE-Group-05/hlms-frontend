@@ -9,7 +9,7 @@ function SearchBar(props) {
                     <IconButton colorScheme='teal' aria-label="Search database" icon={<SearchIcon />} onClick={props.onClick}/>
                 </InputRightElement>
 
-                <Input placeholder={props.text} name='search' value={props.value} onChange={props.onChange} />
+                <Input data-testid='search' placeholder={props.text} name='search' value={props.value} onChange={props.onChange} />
 
             </InputGroup>
 

@@ -30,6 +30,7 @@ exports[`matches snapshot 1`] = `
     </div>
     <input
       className="chakra-input css-0"
+      data-testid="search"
       name="search"
       onBlur={[Function]}
       onFocus={[Function]}
