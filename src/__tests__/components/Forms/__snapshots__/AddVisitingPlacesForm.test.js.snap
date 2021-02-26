@@ -25,13 +25,13 @@ exports[`matches snapshot 1`] = `
         role="group"
       >
         <input
-          aria-describedby="field-98-helptext"
+          aria-describedby="field-114-helptext"
           aria-label="Name"
           aria-required={true}
           className="chakra-input css-0"
           data-testid="placename"
           disabled={false}
-          id="field-98"
+          id="field-114"
           name="placeName"
           onBlur={[Function]}
           onChange={[Function]}
@@ -44,7 +44,7 @@ exports[`matches snapshot 1`] = `
         />
         <div
           className="chakra-form__helper-text css-1xnfdvb"
-          id="field-98-helptext"
+          id="field-114-helptext"
         >
           
         </div>
@@ -59,13 +59,13 @@ exports[`matches snapshot 1`] = `
         role="group"
       >
         <textarea
-          aria-describedby="field-99-helptext"
+          aria-describedby="field-115-helptext"
           aria-label="Description"
           aria-required={true}
           className="chakra-textarea css-0"
           data-testid="description"
           disabled={false}
-          id="field-99"
+          id="field-115"
           name="description"
           onBlur={[Function]}
           onChange={[Function]}
@@ -78,7 +78,7 @@ exports[`matches snapshot 1`] = `
         />
         <div
           className="chakra-form__helper-text css-1xnfdvb"
-          id="field-99-helptext"
+          id="field-115-helptext"
         >
           
         </div>
@@ -101,13 +101,13 @@ exports[`matches snapshot 1`] = `
           className="chakra-input__group css-4302v8"
         >
           <input
-            aria-describedby="field-100-helptext"
+            aria-describedby="field-116-helptext"
             aria-label="Latitude"
             aria-required={true}
             className="chakra-input css-0"
             data-testid="latitude"
             disabled={false}
-            id="field-100"
+            id="field-116"
             name="latitude"
             onBlur={[Function]}
             onChange={[Function]}
@@ -119,13 +119,13 @@ exports[`matches snapshot 1`] = `
             value=""
           />
           <input
-            aria-describedby="field-100-helptext"
+            aria-describedby="field-116-helptext"
             aria-label="Longitude"
             aria-required={true}
             className="chakra-input css-0"
             data-testid="longitude"
             disabled={false}
-            id="field-100"
+            id="field-116"
             name="longitude"
             onBlur={[Function]}
             onChange={[Function]}
@@ -139,7 +139,7 @@ exports[`matches snapshot 1`] = `
         </div>
         <div
           className="chakra-form__helper-text css-1xnfdvb"
-          id="field-100-helptext"
+          id="field-116-helptext"
         >
           
            
@@ -199,7 +199,7 @@ exports[`matches snapshot 1`] = `
           value={0}
         >
           <input
-            aria-describedby="field-101-helptext"
+            aria-describedby="field-117-helptext"
             aria-disabled={false}
             aria-invalid={true}
             aria-required={true}
@@ -211,7 +211,7 @@ exports[`matches snapshot 1`] = `
             autoCorrect="off"
             className="css-8atqhb"
             disabled={false}
-            id="field-101"
+            id="field-117"
             inputMode="decimal"
             name="distance"
             onBlur={[Function]}
@@ -276,7 +276,7 @@ exports[`matches snapshot 1`] = `
         </div>
         <div
           className="chakra-form__helper-text css-1xnfdvb"
-          id="field-101-helptext"
+          id="field-117-helptext"
         >
           
         </div>
@@ -506,7 +506,7 @@ exports[`matches snapshot 1`] = `
         </div>
         <div
           className="chakra-form__helper-text css-1xnfdvb"
-          id="field-102-helptext"
+          id="field-118-helptext"
         >
           
         </div>
@@ -526,7 +526,7 @@ exports[`matches snapshot 1`] = `
           value={0}
         >
           <input
-            aria-describedby="field-103-helptext"
+            aria-describedby="field-119-helptext"
             aria-disabled={false}
             aria-invalid={true}
             aria-required={true}
@@ -538,7 +538,7 @@ exports[`matches snapshot 1`] = `
             autoCorrect="off"
             className="css-8atqhb"
             disabled={false}
-            id="field-103"
+            id="field-119"
             inputMode="decimal"
             name="timeToReach"
             onBlur={[Function]}
@@ -603,7 +603,7 @@ exports[`matches snapshot 1`] = `
         </div>
         <div
           className="chakra-form__helper-text css-1xnfdvb"
-          id="field-103-helptext"
+          id="field-119-helptext"
         >
           
         </div>
