@@ -21,4 +21,5 @@ exports.module = {
           "expand": true
         }]
       ],
+    "coveragePathIgnorePatterns" : ["<rootDir>/node_modules/","<rootDir>/src/index.js", "<rootDir>/src/jest.config.js", "<rootDir>/src/reportWebVitals.js"]
    }
